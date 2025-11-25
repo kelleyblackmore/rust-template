@@ -1,0 +1,18 @@
+[package]
+name = "rust-template"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust template repository"
+license = "MIT"
+repository = "https://github.com/kelleyblackmore/rust-template"
+
+[dependencies]
+
+[dev-dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
